@@ -30,8 +30,7 @@ const store = new Vuex.Store({
 						text: '我的',
 						customIcon: false,
 						pagePath: '/pages/person/person', 
-					},
-				]
+					}]
 	},
 	mutations:{},
 	actions:{},
