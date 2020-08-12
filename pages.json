@@ -6,19 +6,25 @@
 		{
 			"path": "pages/home/home",
 			"style": {
-				"navigationBarTitleText": "社区"
+				// "navigationBarTitleText": "社区",
+				"navigationStyle": "custom" ,// 隐藏系统导航栏
+				"navigationBarTextStyle": "white" // 状态栏字体为白色，只能为 white-白色，black-黑色 二选一
 			}
 		},
 		{
 			"path": "pages/game/game",
 			"style": {
-				"navigationBarTitleText": "游戏"
+				// "navigationBarTitleText": "游戏",
+				"navigationStyle": "custom" ,// 隐藏系统导航栏
+				"navigationBarTextStyle": "white" // 状态栏字体为白色，只能为 white-白色，black-黑色 二选一
 			}
 		},
 		{
 			"path": "pages/person/person",
 			"style": {
-				"navigationBarTitleText": "我的"
+				// "navigationBarTitleText": "我的",
+				"navigationStyle": "custom" ,// 隐藏系统导航栏
+				"navigationBarTextStyle": "white" // 状态栏字体为白色，只能为 white-白色，black-黑色 二选一
 			}
 		}
 	],

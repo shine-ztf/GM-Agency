@@ -20,7 +20,7 @@ const store = new Vuex.Store({
 					{
 						iconPath: "photo",
 						selectedIconPath: "photo-fill",
-						text: '游戏',
+						text: '游戏图库',
 						customIcon: false,
 						pagePath: '/pages/game/game', 
 					},
@@ -32,9 +32,15 @@ const store = new Vuex.Store({
 						pagePath: '/pages/person/person', 
 					}]
 	},
-	mutations:{},
-	actions:{},
-	getters:{},
+	mutations:{
+		
+	},
+	actions:{
+		
+	},
+	getters:{
+		
+	},
 })
 
 export default store;
